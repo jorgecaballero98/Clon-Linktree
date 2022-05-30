@@ -1,0 +1,19 @@
+.publicLinksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.publicLinkContainer {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 1.2rem;
+    background-color: #facf23;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.publicLinkContainer:hover {
+    background-color: #e7be1a;
+}

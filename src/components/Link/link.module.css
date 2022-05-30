@@ -7,28 +7,33 @@
 .link {
     background-color: #fff;
     border-radius: 3px;
-    margin-bottom: .7rem;
-
     display: flex;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    height: 4rem;
+    height: 5rem;
 }
 
 .linkInfo {
-    padding: 10px 15px;
+    margin: 1rem;
+    padding: 1rem;
     width: 100%;
 }
 
 .linkTitle {
-    font-weight: bolder;
+    display: flex;
+    align-items: center;
     padding: 5px 0;
+    font-weight: bolder;
+    font-size: 1.2rem;
 }
 
 .linkUrl {
+    display: flex;
+    align-items: center;
     padding: 5px 0;
     color: #555;
     text-transform: lowercase;
+    font-size: 1.1rem;
 }
 
 .linkActions {
@@ -39,11 +44,9 @@
 }
 
 .btnEdit {
-    border: none;
-    padding: 0;
-    margin: 0;
-    background-color: transparent;
     height: 1rem;
+    border: none;
+    background-color: transparent;
     color: #ccc;
     cursor: pointer;
 }

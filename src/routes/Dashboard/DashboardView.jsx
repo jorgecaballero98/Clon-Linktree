@@ -100,21 +100,21 @@ const DashboardView = () => {
           action=""
           onSubmit={handleOnSubmit}
         >
-          <label htmlFor="title">Title</label>
+          <label htmlFor="title">Título</label>
           <input
             className="input"
             type="text"
             name="title"
             onChange={handleOnChange}
           />
-          <label htmlFor="url">Url</label>
+          <label htmlFor="url">Ingrese el link</label>
           <input
             className="input"
             type="text"
             name="url"
             onChange={handleOnChange}
           />
-          <input className="btn" type="submit" value="Create new link" />
+          <input className="btn" type="submit" value="Crear el link" />
         </form>
 
         <div className={styleLinks.linksContainer}>

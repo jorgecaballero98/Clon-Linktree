@@ -50,10 +50,12 @@ const LoginView = () => {
     return (
       <div className={style.loginView}>
         <div>
-          <h1>Login</h1>
+          <h1>Iniciar sesión con Google</h1>
         </div>
         <button className={style.provider} onClick={handleOnClick}>
-          Login with Google
+          <span class="material-icons">account_circle</span>
+          Inicia
+          sesión con Google
         </button>
       </div>
     );
